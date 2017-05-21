@@ -1,5 +1,4 @@
-document.getElementById('toggle').addEventListener("click", function(event){
-  event.preventDefault();
+document.getElementById('toggle').addEventListener("click", function(event){event.preventDefault();
 	document.getElementById('header').classList.toggle("open");
 	document.getElementById('body').classList.toggle("overflow-hidden");
 });
@@ -10,7 +9,7 @@ window.addEventListener("scroll", function(){
   if (currentScroll > lastScrollTop){
     console.log("down"); 
   } else {
-    console.log("up"); 
+    console.log("up");
   }
   lastScrollTop = currentScroll;
 
